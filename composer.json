@@ -21,12 +21,19 @@
 		"zendframework/zend-db" : "*",
 		"zendframework/zend-form" : "*",
 		"zendframework/zend-navigation" : "*",
-		"zendframework/zend-mvc-plugin-flashmessenger" : "*"
+		"zendframework/zend-mvc-plugin-flashmessenger" : "*",
+		"zendframework/zend-i18n" : "*",
+		"zendframework/zend-crypt" : "*",
+		"zendframework/zend-session" : "*",
+		"zendframework/zend-authentication" : "*"
 	},
 	"autoload" : {
 		"psr-4" : {
 			"Application\\" : "module/Application/src/",
-			"Midnet\\" : "module/Midnet/src"
+			"Midnet\\" : "module/Midnet/src",
+			"User\\" : "module/User/src",
+			"Annotation\\" : "module/Annotation/src",
+			"Mapindex\\" : "module/Mapindex/src"
 		}
 	},
 	"autoload-dev" : {
