@@ -14,18 +14,19 @@
 	"require" : {
 		"php" : "^5.6 || ^7.0",
 		"zendframework/zend-component-installer" : "^1.0 || ^0.7 || ^1.0.0-dev@dev",
-		"zendframework/zend-mvc" : "^3.0.1",
+		"zendframework/zend-mvc" : "3.1.1",
 		"zfcampus/zf-development-mode" : "^3.0",
 		"phpunit/phpunit" : "*",
 		"zendframework/zend-test" : "*",
-		"zendframework/zend-db" : "*",
-		"zendframework/zend-form" : "*",
+		"zendframework/zend-db" : "~2.10",
+		"zendframework/zend-form" : "2.12.0",
 		"zendframework/zend-navigation" : "*",
 		"zendframework/zend-mvc-plugin-flashmessenger" : "*",
 		"zendframework/zend-i18n" : "*",
 		"zendframework/zend-crypt" : "*",
 		"zendframework/zend-session" : "*",
-		"zendframework/zend-authentication" : "*"
+		"zendframework/zend-authentication" : "*",
+		"zendframework/zend-paginator" : "*"
 	},
 	"autoload" : {
 		"psr-4" : {
@@ -33,7 +34,8 @@
 			"Midnet\\" : "module/Midnet/src",
 			"User\\" : "module/User/src",
 			"Annotation\\" : "module/Annotation/src",
-			"Mapindex\\" : "module/Mapindex/src"
+			"Mapindex\\" : "module/Mapindex/src",
+			"Report\\" : "module/Report/src"
 		}
 	},
 	"autoload-dev" : {

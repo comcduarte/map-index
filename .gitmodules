@@ -10,3 +10,6 @@
 [submodule "module\\Mapindex"]
 	path = module\\Mapindex
 	url = https://github.com/comcduarte/mapindexModule.git
+[submodule "module\\Report"]
+	path = module\\Report
+	url = https://github.com/comcduarte/reportModule.git

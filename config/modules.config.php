@@ -11,6 +11,7 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Zend\Paginator',
     'Zend\I18n',
     'Zend\Mvc\Plugin\FlashMessenger',
     'Zend\Session',
@@ -27,4 +28,5 @@ return [
     'User',
     'Annotation',
     'Mapindex',
+    'Report',
 ];
