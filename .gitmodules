@@ -13,3 +13,6 @@
 [submodule "module\\Report"]
 	path = module\\Report
 	url = https://github.com/comcduarte/reportModule.git
+[submodule "module\\Acl"]
+	path = module\\Acl
+	url = https://github.com/comcduarte/aclModule.git

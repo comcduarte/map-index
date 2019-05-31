@@ -26,7 +26,9 @@
 		"zendframework/zend-crypt" : "*",
 		"zendframework/zend-session" : "*",
 		"zendframework/zend-authentication" : "*",
-		"zendframework/zend-paginator" : "*"
+		"zendframework/zend-paginator" : "*",
+		"zendframework/zend-permissions-rbac" : "~3.0",
+		"zendframework/zend-permissions-acl" : "~2.7"
 	},
 	"autoload" : {
 		"psr-4" : {
@@ -35,7 +37,8 @@
 			"User\\" : "module/User/src",
 			"Annotation\\" : "module/Annotation/src",
 			"Mapindex\\" : "module/Mapindex/src",
-			"Report\\" : "module/Report/src"
+			"Report\\" : "module/Report/src",
+			"Acl\\" : "module/Acl/src"
 		}
 	},
 	"autoload-dev" : {
