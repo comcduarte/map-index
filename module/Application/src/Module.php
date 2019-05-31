@@ -9,7 +9,8 @@ namespace Application;
 
 class Module
 {
-    const VERSION = '3.0.3-dev';
+    const VERSION = '1.0.0';
+    const TITLE = 'Map Index';
 
     public function getConfig()
     {
